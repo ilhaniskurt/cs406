@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------
+Benchmark                                    Time             CPU   Iterations
+------------------------------------------------------------------------------
+BM_MatrixMultiply<float>/16               7834 ns         7817 ns        88935
+BM_MatrixMultiply<float>/32              53924 ns        53380 ns        13177
+BM_MatrixMultiply<float>/64             439958 ns       436988 ns         1612
+BM_MatrixMultiply<float>/128           3573152 ns      3554320 ns          194
+BM_MatrixMultiply<float>/256          29479052 ns     29248708 ns           24
+BM_MatrixVectorMultiply<float>/16          559 ns          555 ns      1399440
+BM_MatrixVectorMultiply<float>/32         1816 ns         1803 ns       384787
+BM_MatrixVectorMultiply<float>/64         7077 ns         7033 ns       100144
+BM_MatrixVectorMultiply<float>/128       29011 ns        28601 ns        24155
+BM_MatrixVectorMultiply<float>/256      115856 ns       115643 ns         6047
+BM_MatrixMultiply<double>/16             13064 ns        13043 ns        53705
+BM_MatrixMultiply<double>/32            104111 ns       103935 ns         6724
+BM_MatrixMultiply<double>/64            875716 ns       874267 ns          800
+BM_MatrixMultiply<double>/128          7231428 ns      7217823 ns           96
+BM_MatrixMultiply<double>/256         59380948 ns     59285417 ns           12
+BM_MatrixVectorMultiply<double>/16         896 ns          895 ns       787579
+BM_MatrixVectorMultiply<double>/32        3520 ns         3516 ns       200151
+BM_MatrixVectorMultiply<double>/64       14257 ns        14231 ns        49084
+BM_MatrixVectorMultiply<double>/128      59355 ns        59260 ns        12122
+BM_MatrixVectorMultiply<double>/256     234697 ns       234294 ns         2989
