@@ -1,0 +1,10 @@
+#include "sparse_matrix_vector.hpp"
+#define MATRIX_SIZE 2
+
+int main()
+{
+    SparseMatrixVector matrix = generateRandomSparseMatrix(MATRIX_SIZE, 0.5);
+    displaySparseMatrix(matrix, MATRIX_SIZE);
+    std::cout << calculatePermanent(matrix, MATRIX_SIZE) << std::endl;
+    return 0;
+}
